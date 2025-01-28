@@ -12,8 +12,6 @@ import AppLayout from "./ui/AppLayout";
 import { loader as orderLoader } from "./features/order/SearchOrder";
 import { action as updateOrder } from "./features/order/UpdateOrder";
 
-// FMPYW4
-
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
