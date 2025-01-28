@@ -30,7 +30,7 @@ function MenuItem({ pizza }) {
     <li
       className={`flex items-center gap-4 py-2 ${soldOut ? "opacity-65 grayscale" : ""} `}
     >
-      <div className="aspect-square h-full max-w-24 rounded-md bg-gray-400">
+      <div className="aspect-square h-full w-full max-w-24 rounded-md bg-gray-400">
         <img
           src={imageUrl}
           alt="name"
