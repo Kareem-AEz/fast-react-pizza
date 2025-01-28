@@ -60,7 +60,7 @@ function Order() {
         </p>
       </div>
 
-      <ul className="mb-6 flex w-4/5 flex-col items-stretch divide-y-2 divide-stone-200 border-b-2 py-4">
+      <ul className="my-6 flex w-4/5 flex-col items-stretch divide-y-2 divide-stone-200 border-b-2">
         {cart.map((item, i) => (
           <OrderItem
             item={item}
