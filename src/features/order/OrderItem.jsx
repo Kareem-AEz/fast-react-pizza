@@ -4,7 +4,7 @@ function OrderItem({ item, isLoadingIngredients, ingredients, imgSrc }) {
   const { quantity, name, totalPrice } = item;
 
   return (
-    <li className="flex items-center justify-center gap-3">
+    <li className="flex items-center justify-center gap-3 py-2">
       <div className="relative aspect-square h-full w-full max-w-16 rounded-md bg-gray-400">
         <img
           src={imgSrc}
